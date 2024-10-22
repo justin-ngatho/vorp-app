@@ -1,0 +1,280 @@
+body {
+  margin-right: 0;
+  /* overflow: hidden; */
+}
+
+
+/* navbar */
+
+.container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%; /* Full height of the page */
+  background-color: white; /* Navbar background color */
+  padding-left: 10%;
+  margin-right: 0;
+}
+
+.navbar-button{
+  padding-left: 10px;
+  padding-top: 20px;
+}
+.container-bottom{
+  display: flex;
+  gap:20px;
+  align-items: center;
+  text-align: center;
+  padding-left: 10%;
+  padding-top: 20px;
+  font-size: x-large;
+}
+.section-two-content a {
+  color: black;
+  text-align: center;
+}
+.dropdown-links{
+  color: black;
+  font-style: none;
+}
+
+/* carousel */
+.carousel{
+  margin-left: 80px;
+  top: 0;
+}
+.carousel-item {
+  height: 97vh;
+  min-height: 300px;
+  text-align: center;
+  margin-top: 0;
+  margin-right: 0;
+ 
+}
+
+.carousel-caption {
+  /* bottom: 40%; */
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+.carousel-caption h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.carousel-inner::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.w-100 {
+  height: 100vh;
+  width: 100vh;
+}
+@media (max-width:767px) {
+
+  .carousel-inner {
+    display: flex;
+    text-align: center;
+  }
+
+  .carousel-caption {
+    font-size: 1.5rem;
+    display: flex;
+    bottom: 40%;
+    left: 40%;
+  }
+}
+
+/* Section 1 */
+.section1-container{
+  margin-left: 80px;
+}
+.no-gutters {
+  /* margin-right: 80px; */
+  margin-left: 0;
+  color: white;
+  gap: 0;
+}
+
+.no-gutters > .col
+ {
+  padding-right: 0;
+  padding-left: 0;
+  margin: 0 ;
+  color: white;
+   /* Add smooth transform effect on hover */
+}
+.card-no-space{
+  padding-right: 0;
+  padding-left: 0;
+  margin: 0 ;
+  color: white;
+   /* Add smooth transform effect on hover */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 1; /* Ensure normal stacking order */
+  overflow: hidden;
+}
+/* Card hover effect with blue shade */
+.card-no-space::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 255, 0.3); /* Blue shade, adjust opacity as needed */
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 0.3s ease; /* Smooth transition for the shade */
+  color: white;
+  font-weight: bolder;
+}
+
+.card-no-space:hover::before {
+  opacity: 1; /* Show the blue shade on hover */
+}
+
+/* Bouncing effect using keyframes */
+.card-no-space:hover {
+  transform: translateY(-15px); /* Lift the card slightly upwards */
+  box-shadow: 0 15px 25px rgba(0, 0, 255, 0.3); /* Blue shadow for lift effect */
+  z-index: 10; /* Make the hovered card appear above the others */
+}
+
+/* Ensure the content (text) remains on top of the blue shade */
+.card-body {
+  position: relative;
+  z-index: 5; /* Content appears above the overlay */
+  background: transparent; /* Optional: semi-transparent background for readability */
+  color: white
+}
+
+.section1-container2{
+  display: flex;
+}
+
+/* Section Two */
+
+.section-two-container {
+  display: flex;
+}
+.section-two-left {
+  /* width: 50%; */
+  margin: 0 auto;
+  /* margin-left: 0; */
+  flex: 0 0 50%;
+}
+.section-two-left img {
+  width: 100%;
+  margin-right: 1rem;
+  margin-left: 0;
+  /* height: 300px; */
+  object-fit: cover;
+  max-width: 100%; /* Prevents stretching beyond container width */
+  max-height: 100%; /* Prevents stretching beyond container height */
+}
+.section-two-right {
+  flex: 0 0 50%;
+  text-align: center;
+}
+
+/* Section 3 */
+
+.section-three-top {
+  display: flex;
+  gap: 1rem;
+  padding-left: 10px;
+  background-color: brown;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+.section-three-bottom{
+  display: flex;
+}
+.card-bottom-left{
+  flex: 0 0 30%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.card-bottom-right{
+  flex: 0 0 70%;
+}
+.card-top-icon:hover  {
+  transition: all 500ms ease;
+  color: #fff;
+  background-color: #0078ff;
+  box-shadow: 0 0 0 10px #cde1f8;
+}
+ .card-top-icon {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size:30px;
+  width:30%; 
+  height:70px;
+  border:solid;
+  border-color: #fff;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+.card-top-icon .ico-circle {
+  transition: all 500ms ease;
+  /* font-size: 4rem; */
+  
+}
+/* Section 4 */
+.section-four-container{
+  display: flex;
+  text-align: center;
+  padding-bottom: 50px;
+  background-color: black;
+  color: #fff;
+}
+.section-four-left{
+  flex: 0 0 70%;
+  margin-left: 30px;
+
+}
+
+/* fOOTER */
+
+.top-footer {
+  display: flex;
+  gap: 10px;
+  padding: 30px;
+  background-color: black;
+  color: #fff;
+}
+
+.footer-top-card-0 {
+  flex: 0 0 25%;
+}
+
+.footer-top-card-1 {
+  flex: 0 0 25%;
+}
+.footer-top-card-2 {
+  flex: 0 0 25%;
+}
+.footer-top-card-3 {
+  flex: 0 0 25%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  margin: 0;
+  
+}
