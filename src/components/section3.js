@@ -5,32 +5,40 @@ import Row from 'react-bootstrap/Row';
 export default function SectionThree () {
 
     return (
-      <div className="section-three" style={{marginLeft:"80px", backgroundImage:"url(images/section3.jpg",backgroundRepeat:"no-repeat",
+      <div className="section-three" style={{
+        marginLeft:"80px", 
+        backgroundImage:"url(images/section3.jpg",
+        backgroundRepeat:"no-repeat",
         backgroundSize:"cover"
       }}>
-        <div className="section-three-top">
-          <div className="card-top-icon" style={{}}>
+        <div className="row g-3"
+        style={{
+          backgroundColor:"brown",
+          padding:"20px"
+
+        }}>
+          <div className="col-md-1 card-top-icon" style={{}}>
           <span class="ico-circle"> <i class="bi bi-calendar" ></i></span>
           </div>  
-          <div className="card-top">
+          <div className="col-md-3 card-top">
             <h1>Mission</h1>
             <p>Building a better future for vulnerable and disadvantaged children to 
                 have access to mentorship programs, various means of education, food items, 
                 and other basic human needs.</p>
           </div>
-          <div className="card-top-icon">
+          <div className="col-md-1 card-top-icon">
           <span class="ico-circle"><i class="bi bi-eye"></i></span>
           </div>
-          <div className="card-top">
+          <div className="col-md-3 card-top">
             <h1>Mission</h1>
             <p>Building a better future for vulnerable and disadvantaged children to 
                 have access to mentorship programs, various means of education, food items, 
                 and other basic human needs.</p>
           </div>
-          <div className="card-top-icon">
+          <div className="col-md-1 card-top-icon">
           <span class="ico-circle"> <i class="bi bi-trophy" ></i></span>
           </div>
-          <div className="card-top">
+          <div className="col-md-3 card-top">
             <h1>Mission</h1>
             <p>Building a better future for vulnerable and disadvantaged children to 
                 have access to mentorship programs, various means of education, food items, 
@@ -38,8 +46,15 @@ export default function SectionThree () {
           </div>
         </div>
 
-        <div className="section-three-bottom">
-            <div className="card-bottom-left">
+        <div className="section-three-bottom"style={{
+          textAlign:"center",
+          padding:"20px"
+        }}>
+          <div className='row g-0'>
+
+         
+          <div className='col-md-6 g-0'>
+          <div className="card-bottom-left">
                 <h1>Poverty rate in Kenya</h1>
                 <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
                     Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, 
@@ -54,7 +69,9 @@ export default function SectionThree () {
                     el cual incluye versiones de Lorem Ipsum.
                 </p>
             </div>
-            <div className="card-bottom-right">
+          </div>
+            
+            <div className="card-bottom-right col-md-6">
               <div className="row">
         <div class="col-md-6">
           <div class="work-box">
@@ -155,6 +172,7 @@ export default function SectionThree () {
         
       </div>
             </div>
+        </div>
         </div>
       </div>
     );

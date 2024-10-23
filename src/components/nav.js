@@ -23,7 +23,7 @@ function Nav() {
    };
 
   return (
-    <div className="container" style={{width:"80px", border:"1px", borderColor:"grey"}}>
+    <div className="container" style={{width:"80px", border:"solid",borderWidth:'0.1px', borderColor:"grey",borderBottomColor:"white"}}>
     <div className='navbar-button' >
     <img src='./images/list.svg' style={{width:"50px"}} onClick={handleShow}/>
     </div>
@@ -38,7 +38,7 @@ function Nav() {
         <Offcanvas.Body>
           <div className="links-container">
           <div className="section-two-content">
-          <Card
+          <Card className='card-navi'
             style={{
               width: "25vw",
               backgroundColor: "white",
@@ -223,7 +223,7 @@ function Nav() {
                 <Collapse in={openStates === 4}>
                 <div
                     id="example-collapse-text"
-                    style={{ paddingBottom: "15px",textAlign:"center", }}
+                    style={{ textAlign:"center",gap:"100px" }}
                   >
                     <a href=''>In Motion</a>
                     <br/><br/>

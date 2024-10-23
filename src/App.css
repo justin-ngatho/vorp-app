@@ -1,6 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin-right: 0;
-  /* overflow: hidden; */
+  
 }
 
 
@@ -15,11 +21,41 @@ body {
   padding-left: 10%;
   margin-right: 0;
 }
-
+.container-top{
+  width: 100%;
+  overflow-x: hidden;
+}
 .navbar-button{
   padding-left: 10px;
   padding-top: 20px;
 }
+.links-container {
+  text-align: center;
+}
+.section-two-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Offcanvas body responsiveness */
+.offcanvas-body {
+  padding: 10px;
+  overflow: hidden;
+  /* width: 40vw; */
+}
+
+/* Social media icons container */
+.container-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container-bottom i {
+  font-size: 24px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
 .container-bottom{
   display: flex;
   gap:20px;
@@ -38,9 +74,63 @@ body {
   font-style: none;
 }
 
+
+/* Medium devices (tablets, 768px and below) */
+@media (max-width: 768px) {
+  .container {
+    position: fixed;
+    width: 70px;
+  }
+  .card-navi {
+    width: 100%; /* Slightly wider for tablets */
+    text-align: center;
+  }
+  .offcanvas{
+    width: 100%;
+    /* overflow: hidden; */
+  }
+  .offcanvas-body{
+    width: 100%;
+    /* overflow: hidden; */
+  }
+  .offcanvas-header{
+    width: 100%;
+    /* overflow: hidden; */
+  }
+  .offcanvas-title img {
+    width: 90px; /* Adjust logo size */
+  }
+
+  button {
+    font-size: 15px; /* Slightly smaller button font size */
+  }
+
+  .container-bottom i {
+    font-size: 22px; /* Resize icons slightly */
+  }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 1024px) {
+  .card-navi {
+    width: 25vw; /* Keep the original width for large screens */
+  }
+
+  .offcanvas-title img {
+    width: 100px; /* Keep original logo size for large screens */
+  }
+
+  button {
+    font-size: 16px; /* Keep button size as defined */
+  }
+  .container-bottom i {
+    font-size: 24px; /* Keep social media icon size */
+  }
+}
 /* carousel */
 .carousel{
   margin-left: 80px;
+  margin-right: 10px;
   top: 0;
 }
 .carousel-item {
@@ -49,7 +139,6 @@ body {
   text-align: center;
   margin-top: 0;
   margin-right: 0;
- 
 }
 
 .carousel-caption {
@@ -82,86 +171,84 @@ body {
 }
 @media (max-width:767px) {
 
+  .carousel-slide{
+    height: 40vh;
+    margin-bottom: 0px;
+    margin-left: 80px;
+  }
   .carousel-inner {
     display: flex;
     text-align: center;
+    height: auto;
+    margin-bottom: 0;
   }
 
   .carousel-caption {
-    font-size: 1.5rem;
     display: flex;
-    bottom: 40%;
-    left: 40%;
+    flex-direction: column;
+    top: 10%;
+    height: 10vh;
   }
+  .img-container{
+    width: 100%;
+    height: auto;
+  }
+  .carousel-caption h2{
+    font-size: 1rem;
+  }
+  .carousel-caption h4{
+    font-size: 1rem;
+  }
+  .carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 40vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+  }
+  
 }
 
 /* Section 1 */
-.section1-container{
+.container-section1{
   margin-left: 80px;
-}
-.no-gutters {
-  /* margin-right: 80px; */
-  margin-left: 0;
-  color: white;
-  gap: 0;
-}
 
-.no-gutters > .col
- {
-  padding-right: 0;
-  padding-left: 0;
-  margin: 0 ;
-  color: white;
-   /* Add smooth transform effect on hover */
 }
-.card-no-space{
-  padding-right: 0;
-  padding-left: 0;
-  margin: 0 ;
-  color: white;
-   /* Add smooth transform effect on hover */
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  z-index: 1; /* Ensure normal stacking order */
-  overflow: hidden;
-}
-/* Card hover effect with blue shade */
-.card-no-space::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 255, 0.3); /* Blue shade, adjust opacity as needed */
-  background-size: cover;
-  opacity: 0;
-  transition: opacity 0.3s ease; /* Smooth transition for the shade */
-  color: white;
-  font-weight: bolder;
-}
-
-.card-no-space:hover::before {
-  opacity: 1; /* Show the blue shade on hover */
-}
-
-/* Bouncing effect using keyframes */
-.card-no-space:hover {
-  transform: translateY(-15px); /* Lift the card slightly upwards */
-  box-shadow: 0 15px 25px rgba(0, 0, 255, 0.3); /* Blue shadow for lift effect */
-  z-index: 10; /* Make the hovered card appear above the others */
-}
-
-/* Ensure the content (text) remains on top of the blue shade */
-.card-body {
-  position: relative;
-  z-index: 5; /* Content appears above the overlay */
-  background: transparent; /* Optional: semi-transparent background for readability */
-  color: white
-}
-
 .section1-container2{
   display: flex;
+  text-align: center;
+  background-color: brown;
+  color: white;
+}
+.card::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  /* z-index: 1; */
+}
+.card-body {
+  z-index: 6;
+}
+@media (max-width:767) {
+.container-section1{
+  margin-left: 80px;
+}
+  .container1-content{
+    height: 40vh;
+    margin-left: 80px;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .section1-container2{
+    flex-direction: column;
+  }
 }
 
 /* Section Two */

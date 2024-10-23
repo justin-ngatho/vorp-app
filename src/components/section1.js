@@ -5,59 +5,97 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const CardComponent = () => {
   return (
-    <Container fluid >
-        <div className="section1-container">
-      <Row className="no-gutters">
-        <Col md={4} >
-          <Card className="card-no-space " style={{backgroundImage:"url(/images/hero1.jpg)", height:"40vh", width:"100%"}}>
-            <Card.Body style={{}}>
-              <Card.Title style={{color:"white", fontWeight:"bolder", textShadow:"2px 2px 8px rgba(0, 0, 0, 0.6)"}}>Card 1</Card.Title>
-              <Card.Text style={{color:"white",textShadow:"5px 5px 18px rgba(0, 0, 0, 0.6)"}}>
-                This is some text inside Card 1.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col md={4}>
-          <Card className="card-no-space bg-image-2" style={{backgroundImage:"url(/images/hero1.jpg)", height:"40vh"}}>
-            <Card.Body>
-              <Card.Title style={{color:"white"}}>Card 2</Card.Title>
-              <Card.Text>
-                This is some text inside Card 2.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col md={4}>
-          <Card className="card-no-space bg-image-3" style={{backgroundImage:"url(/images/hero1.jpg)", height:"40vh"}}>
-            <Card.Body>
-              <Card.Title>Card 3</Card.Title>
-              <Card.Text>
-                This is some text inside Card 3.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>                
-      </div>
-      <div className="section1-container2" style={{marginLeft:"80px"}}>
-        <div className="content-left" style={{backgroundColor:"brown", color:"white", width:"40%", 
-            textAlign: "center", paddingTop:"2rem"}}>
-            <h1>Who we Are</h1>
-            <br/>
-           <p><i class="bi bi-chevron-right"></i></p> 
+    <div className="container-section1">
+      <div className="section1-container">
+        <div className="row g-0">
+          <div className="col-md-4">
+        <Card style={{ 
+          backgroundImage:"url(./images/hero1.jpg)",
+          color:"white",
+          textAlign:"center",
+          height:"18rem",
+           }}>
+          <Card.Body>
+            <Card.Title>Card Title</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">
+              Card Subtitle
+            </Card.Subtitle>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+            <Card.Link href="#">Card Link</Card.Link>
+            <Card.Link href="#">Another Link</Card.Link>
+          </Card.Body>
+        </Card>
         </div>
-        <div className="content-right" style={{backgroundColor:"brown", color:"white", width:"60%",
-            paddingRight:"20px", paddingTop:"2rem" }}>
-            <p>We One Action Network (WOAN) is a registered 501 c3 nonprofit organization based in Stanley, North Carolina (USA). We are committed to creating opportunities for bright minds and creative \
-                souls in Kenya, where a vast majority of youth lack the basic opportunity to strengthen their ability.</p>
-            <br/>
-           <p>WOAN-supported initiatives and projects are designed to encourage the highest standards of creativity and long-term self-reliance. Since our inception in 2018, we have positioned ourselves 
-            as part of the solution
-             by listening and engaging with local leaders that understand what those gaps are and why.</p> 
+        <div className="col-md-4">
+        <Card style={{ 
+          backgroundImage:"url(./images/hero1.jpg)",
+          color:"white",
+          textAlign:"center",
+          height:"18rem",
+         }}>
+          <Card.Body>
+            <Card.Title>Card Title</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">
+              Card Subtitle
+            </Card.Subtitle>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+            <Card.Link href="#">Card Link</Card.Link>
+            <Card.Link href="#">Another Link</Card.Link>
+          </Card.Body>
+        </Card>
+        </div>
+        <div className="col-md-4">
+        <Card style={{ 
+          backgroundImage:"url(./images/hero1.jpg)",
+          color:"white",
+          textAlign:"center",
+          height:"18rem",
+          borderRadius:"0"
+         }}>
+          <Card.Body>
+            <Card.Title>Card Title</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">
+              Card Subtitle
+            </Card.Subtitle>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+            <Card.Link href="#">Card Link</Card.Link>
+            <Card.Link href="#">Another Link</Card.Link>
+          </Card.Body>
+        </Card>
+        </div>
         </div>
       </div>
-    </Container>
+      <div className="section1-container2">
+        <div className="row g-0" style={{
+          marginRight:"80px",
+          marginTop:"80px",
+          marginBottom:"80px"
+        }}>
+          <div className="col-md-4">
+            <h1>Who We Are</h1>
+            <br/>
+            <p> <i class="bi bi-chevron-right"></i></p>
+          </div>
+          <div className="col-md-8">
+            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y 
+              archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las 
+              industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) 
+              desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos 
+              especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente
+               con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 

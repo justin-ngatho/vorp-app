@@ -3,17 +3,22 @@ export default function Footer () {
     var today = new Date();
     return (
         <div className="footer"style={{marginLeft:"80px", marginRight:"0"}}>
-            <div className="top-footer">
-                <div className="footer-top-card-0">
+            <div className="row"
+            style={{
+                backgroundColor:"#1A2421",
+                color:"white",
+                // padding:"80px"
+            }}>
+                <div className="footer-top-card-0 col-md-3">
                     <h3>What we do</h3>
                     <p>We are committed to creating opportunities for bright minds and creative souls in Kenya, 
                         where a vast majority of youth lack the basic opportunity to strengthen their ability.</p>
                 </div>
-                <div className="footer-top-card-1">
+                <div className="footer-top-card-1 col-md-3">
                     <h3>Contact Us</h3>
                     <p>Phone: +254 727098070 | Email: vorp.eafrica@gmail.com</p>
                 </div>
-                <div className="footer-top-card-2">
+                <div className="footer-top-card-2 col-md-3">
                     <h3>Main Links</h3>
                     <ul>
                         <li>
@@ -33,7 +38,7 @@ export default function Footer () {
                         </li>
                     </ul>
                 </div>
-                <div className="footer-top-card-3">
+                <div className="footer-top-card-3 col-md-3">
                     <h3>Certifications</h3>
                     <br/>
 

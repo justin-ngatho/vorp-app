@@ -55,14 +55,14 @@ export default function Hero ()
             className={`carousel-item ${index === activeIndex ? 'active' : ''}`}
           >
             <div className="img-container">
-            <img src={slide.imageUrl} className="d-block w-100" alt={slide.caption} />
+            <img src={slide.imageUrl} className="d-block w-100" alt={slide.caption} style={{width:"100%",height:"auto"}} />
             </div>
             
             <div className="carousel-caption">
               <h2>{slide.caption}</h2>
-              <br/><br/>
+              <br/>
               <h4>{slide.captionText}</h4>
-              <br/><br/>
+              <br/>
               <Button>{slide.buttonText}</Button>
             </div>
           </div>
