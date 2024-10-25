@@ -50,10 +50,10 @@ export default function SectionThree () {
           textAlign:"center",
           padding:"20px"
         }}>
-          <div className='row g-0'>
+          <div className='row g-1'>
 
          
-          <div className='col-md-6 g-0'>
+          <div className='col-md-5 g-0'>
           <div className="card-bottom-left">
                 <h1>Poverty rate in Kenya</h1>
                 <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
@@ -71,104 +71,75 @@ export default function SectionThree () {
             </div>
           </div>
             
-            <div className="card-bottom-right col-md-6">
-              <div className="row">
-        <div class="col-md-6">
-          <div class="work-box">
-            <a href="img/work-3.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="images/9.jpg" alt="" class="img-fluid"/>
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Mavrito Lana Dere</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
+            <div className="col-md-7">
+              <div className="row justify-content-center" >
+              <div className=" col-12 col-md-6 col-12 card1"   style={{
+                backgroundImage: "url(./images/hero1.jpg)",
+                backgroundRepeat:"no-repeat",
+                cursor:"pointer"
+              }}>
+              <a class="" href="" >
+                <p>This is heading</p>
+                <p class="small">
+                  Card description with lots of great facts and interesting
+                  details.
+                </p>
+                <div class="go-corner" href="">
+                  <div class="go-arrow">→</div>
                 </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="work-box">
-            <a href="img/work-4.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="./images/9.jpg" alt="" class="img-fluid"/>
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Bindo Laro Cado</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
+              </a>
+            </div>
+        
+            <div class="col-12 col-md-6 card1"   style={{
+                backgroundImage: "url(./images/hero1.jpg)",
+                backgroundRepeat:"no-repeat",
+                cursor:"pointer"
+              }}>
+              <a class="" href="">
+                <p>This is heading</p>
+                <p class="small">
+                  Card description with lots of great facts and interesting
+                  details.
+                </p>
+                <div class="go-corner" href="">
+                  <div class="go-arrow">→</div>
                 </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="work-box">
-            <a href="img/work-5.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="/images/9.jpg" alt="" class="img-fluid"/>
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Studio Lena Mado</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-6 card1"   style={{
+                backgroundImage: "url(./images/hero1.jpg)",
+                backgroundRepeat:"no-repeat",
+                cursor:"pointer"
+              }}>
+              <a class="" href="">
+                <p>This is heading</p>
+                <p class="small">
+                  Card description with lots of great facts and interesting
+                  details.
+                </p>
+                <div class="go-corner" href="">
+                  <div class="go-arrow">→</div>
                 </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="work-box">
-            <a href="img/work-6.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="./images/9.jpg" alt="" class="img-fluid"/>
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Studio Big Bang</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-6 card1"   style={{
+                backgroundImage: "url(./images/hero1.jpg)",
+                backgroundRepeat:"no-repeat",
+                cursor:"pointer"
+              }}>
+              <a class="" href="">
+                <p>This is heading</p>
+                <p class="small">
+                  Card description with lots of great facts and interesting
+                  details.
+                </p>
+                <div class="go-corner" href="">
+                  <div class="go-arrow">→</div>
                 </div>
-              </div>
-            </a>
-          </div>
-        </div>
+              </a>
+            </div>
         
       </div>
             </div>
