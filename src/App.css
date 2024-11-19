@@ -293,7 +293,7 @@ body {
   text-decoration: none;
   z-index: 0;
   overflow: hidden;
-  height: 40vh;
+  height: 35vh;
   transition: transform 0.3s ease; /* Smooth transition */
 }
 
@@ -331,7 +331,7 @@ body {
 }
 
 
-@media (max-width:767) {
+@media (max-width:767px) {
 .container-section1{
   margin-left: 80px;
 }
@@ -347,6 +347,7 @@ body {
   .card1 {
     width: 100%;
     max-width: 100px;
+    height: 20vh;
   }
 }
 

@@ -46,7 +46,7 @@ export default function Footer () {
                 </div>
             </div>
             <div className="bottom-footer">
-            <div className="row justify-content-center mt-3 mb-4">
+            <div className="row justify-content-center mt-3 mb-0">
           <div className="col-8">
             <p>Fatima Apartments, Arwing Kodhek off Marcus Garvey, Kilimani
                | Phone: +254 727098070 | Email: vorp.eafrica@gmail.com</p>

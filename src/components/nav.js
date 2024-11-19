@@ -25,7 +25,11 @@ function Nav() {
   return (
     <div className="container" style={{width:"80px", border:"solid",borderWidth:'0.1px', borderColor:"grey",borderBottomColor:"white"}}>
     <div className='navbar-button' >
-    <img src='./images/list.svg' style={{width:"50px"}} onClick={handleShow}/>
+    <img src='./images/list.svg' style={{width:"50px", cursor:"pointer"}} onClick={handleShow}/>
+    <div className='mt-1 img-container '>
+    <img src='./images/logo2.jpg' style={{width:"50px", height:"80vh"}}/>
+    </div>
+    
     </div>
     
      <div className='container-top'>
