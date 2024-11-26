@@ -9,18 +9,20 @@ const CardComponent = () => {
       <div className="section1-container">
         <div className="row g-0">
           <div
-            class="col-md-4 card1"
+            class="col-md-3 card1"
             style={{
               backgroundImage: "url(./images/hero1.jpg)",
               backgroundRepeat: "no-repeat",
               cursor: "pointer",
+               backgroundSize:"cover"
             }}
           >
             <a class="" href="#">
-              <p>This is heading</p>
+              <p> Health </p>
               <p class="small">
-                Card description with lots of great facts and interesting
-                details.
+                We're into setting up community health projects so that people
+                can get the care they need and learn how to stay healthy. Our
+                goal is to give moms and kids the best shot at a good life.
               </p>
               <div class="go-corner" href="#">
                 <div class="go-arrow">→</div>
@@ -28,18 +30,20 @@ const CardComponent = () => {
             </a>
           </div>
           <div
-            class="col-md-4 card1"
+            class="col-md-3 card1"
             style={{
-              backgroundImage: "url(./images/hero1.jpg)",
+              backgroundImage: "url(./images/newsletter.jpg)",
               backgroundRepeat: "no-repeat",
               cursor: "pointer",
+              backgroundSize:"cover"
             }}
           >
             <a class="" href="#">
-              <p>This is heading</p>
+              <p>Livelihood and Education</p>
               <p class="small">
-                Card description with lots of great facts and interesting
-                details.
+                We're big on teaching people skills that'll help them get good
+                jobs and support themselves. We want everyone to have a chance
+                to learn and grow.
               </p>
               <div class="go-corner" href="#">
                 <div class="go-arrow">→</div>
@@ -47,18 +51,42 @@ const CardComponent = () => {
             </a>
           </div>
           <div
-            class="col-md-4 card1"
+            class="col-md-3 card1"
             style={{
-              backgroundImage: "url(./images/hero1.jpg)",
+              backgroundImage: "url(./images/section3.jpg)",
               backgroundRepeat: "no-repeat",
               cursor: "pointer",
+              backgroundSize:"cover"
             }}
           >
             <a class="" href="#">
-              <p>This is heading</p>
+              <p> Environmental and Climate Justice: </p>
               <p class="small">
-                Card description with lots of great facts and interesting
-                details.
+                With the climate going a bit crazy, we're here to help
+                communities deal with it. We push for stuff that doesn't harm
+                the planet and makes sure everyone has what they need to live
+                well.
+              </p>
+              <div class="go-corner" href="#">
+                <div class="go-arrow">→</div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="col-md-3 card1"
+            style={{
+              backgroundImage: "url(./images/contributors.jpg)",
+              backgroundRepeat: "no-repeat",
+              cursor: "pointer",
+              backgroundSize:"cover"
+            }}
+          >
+            <a class="" href="#">
+              <p> Social Protection and Advocacy </p>
+              <p class="small">
+                Sometimes, the people who need help the most aren't heard. So,
+                we stand up for them and make sure their voices count in the big
+                decisions that affect their lives
               </p>
               <div class="go-corner" href="#">
                 <div class="go-arrow">→</div>
@@ -68,12 +96,7 @@ const CardComponent = () => {
         </div>
       </div>
       <div className="section1-container2">
-        <div
-          className="row g-0 mt-3 mb-3"
-          style={{
-           
-          }}
-        >
+        <div className="row g-0 mt-3 mb-3" style={{}}>
           <div className="col-12 col-md-4">
             <h1>Who We Are</h1>
             <br />

@@ -5,10 +5,12 @@ export default function SectionFour () {
     return (
         <div className="section-four" style={{marginLeft:"80px",}}>
             <div className="section-four-container row g-0">
-                <div className="col-md-8">
+                <div className="col-md-1">
+                    
+                </div>
+                <div className="col-md-7">
                     <h2>
-                    We One Action Network is
-                     committed to helping vulnerable and disadvantaged students and educators in Kenya.
+                    The Voice of Reconciliation and Pacification East Africa  works with disadvantaged populations to protect their rights and foster intercommunal understanding
 
                     </h2>
                 </div>

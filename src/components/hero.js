@@ -9,17 +9,17 @@ export default function Hero ()
     {
       id: 1,
       imageUrl: "./images/hero1.jpg",
-      caption: 'Image 1',
-      captionText: 'Our history is not the past, its the future',
+      caption: 'Voice of Reconciliation and Pacification East Africa (VORP-EA) ',
+      captionText: 'We believe in the human potential. All human potential. ',
       buttonText: 'Core Values', // Button text
       buttonLink: '/learn-more'     
 
     },
     {
       id: 2,
-      imageUrl: './images/her02.jpg',
-      caption: 'Image 2',
-      captionText: 'Our history is not the past, its the future',
+      imageUrl: './images/hero2.jpg',
+      caption: 'Voice of Reconciliation and Pacification East Africa (VORP-EA) ',
+      captionText: 'We believe in the human potential. All human potential. ',
       buttonText: 'Featured Projects', // Button text
     buttonLink: '/learn-more' 
 
@@ -27,8 +27,8 @@ export default function Hero ()
     {
       id: 3,
       imageUrl: './images/hero3.jpg',
-      caption: 'Image 3',
-      captionText: 'Our history is not the past, its the future',
+      caption: 'Voice of Reconciliation and Pacification East Africa (VORP-EA) ',
+      captionText: 'We believe in the human potential. All human potential. ',
       buttonText: 'Youth Programs', // Button text
     buttonLink: '/learn-more' 
     },

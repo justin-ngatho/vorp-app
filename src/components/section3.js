@@ -18,6 +18,7 @@ export default function SectionThree() {
         style={{
           backgroundColor: "brown",
           padding: "20px",
+          color:"white"
         }}
       >
         <div className="col-md-1 card-top-icon" style={{}}>
@@ -126,16 +127,16 @@ export default function SectionThree() {
               <div
                 class="col-12 col-md-6 card1"
                 style={{
-                  backgroundImage: "url(./images/hero1.jpg)",
+                  backgroundImage: "url(./images/team.jpg)",
                   backgroundRepeat: "no-repeat",
                   cursor: "pointer",
+                  backgroundSize:"cover"
                 }}
               >
                 <a class="" href="">
-                  <p>This is heading</p>
+                  <p>The Team</p>
                   <p class="small">
-                    Card description with lots of great facts and interesting
-                    details.
+                   
                   </p>
                   <div class="go-corner" href="">
                     <div class="go-arrow">→</div>
@@ -146,16 +147,16 @@ export default function SectionThree() {
               <div
                 class="col-12 col-md-6 card1"
                 style={{
-                  backgroundImage: "url(./images/hero1.jpg)",
+                  backgroundImage: "url(./images/contributors.jpg)",
                   backgroundRepeat: "no-repeat",
                   cursor: "pointer",
+                  backgroundSize:"cover"
                 }}
               >
                 <a class="" href="">
-                  <p>This is heading</p>
+                  <p>Contributors</p>
                   <p class="small">
-                    Card description with lots of great facts and interesting
-                    details.
+        
                   </p>
                   <div class="go-corner" href="">
                     <div class="go-arrow">→</div>
@@ -166,16 +167,16 @@ export default function SectionThree() {
               <div
                 class="col-12 col-md-6 card1"
                 style={{
-                  backgroundImage: "url(./images/hero1.jpg)",
+                  backgroundImage: "url(./images/newsletter.jpg)",
                   backgroundRepeat: "no-repeat",
                   cursor: "pointer",
+                   backgroundSize:"cover"
                 }}
               >
                 <a class="" href="">
-                  <p>This is heading</p>
+                  <p>Newsletter</p>
                   <p class="small">
-                    Card description with lots of great facts and interesting
-                    details.
+                    
                   </p>
                   <div class="go-corner" href="">
                     <div class="go-arrow">→</div>
