@@ -1,98 +1,93 @@
-
 import React from "react";
 import { Card, Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const CardComponent = () => {
   return (
-    <div className="container-section1">
+    <div
+      className="container-section1"
+      style={{
+        marginLeft: "80px",
+      }}
+    >
       <div className="section1-container">
         <div className="row g-0">
           <div
-            class="col-md-3 card1"
+            class="col-md-3 cardi"
             style={{
               backgroundImage: "url(./images/hero1.jpg)",
               backgroundRepeat: "no-repeat",
               cursor: "pointer",
-               backgroundSize:"cover"
+              backgroundSize: "cover",
             }}
           >
             <a class="" href="#">
-              <p> Health </p>
-              <p class="small">
-                We're into setting up community health projects so that people
-                can get the care they need and learn how to stay healthy. Our
-                goal is to give moms and kids the best shot at a good life.
-              </p>
-              <div class="go-corner" href="#">
-                <div class="go-arrow">→</div>
+              <div class="card-content">
+                <p class="card-title">Health</p>
+                <p class="card-para">
+                  We provide accessible healthcare services and promote health
+                  education to prevent disease and improve well-being.
+                </p>
               </div>
             </a>
           </div>
           <div
-            class="col-md-3 card1"
+            class="col-md-3 cardi"
             style={{
-              backgroundImage: "url(./images/newsletter.jpg)",
+              backgroundImage: "url(./images/hero1.jpg)",
               backgroundRepeat: "no-repeat",
               cursor: "pointer",
-              backgroundSize:"cover"
+              backgroundSize: "cover",
             }}
           >
             <a class="" href="#">
-              <p>Livelihood and Education</p>
-              <p class="small">
-                We're big on teaching people skills that'll help them get good
-                jobs and support themselves. We want everyone to have a chance
-                to learn and grow.
-              </p>
-              <div class="go-corner" href="#">
-                <div class="go-arrow">→</div>
+              <div class="card-content">
+                <p class="card-title">Livelihoods & Learning</p>
+                <p class="card-para">
+                  We empower individuals through skills training and education,
+                  creating opportunities for sustainable livelihoods.
+                </p>
               </div>
             </a>
           </div>
           <div
-            class="col-md-3 card1"
+            class="col-md-3 cardi"
             style={{
-              backgroundImage: "url(./images/section3.jpg)",
+              backgroundImage: "url(./images/hero1.jpg)",
               backgroundRepeat: "no-repeat",
               cursor: "pointer",
-              backgroundSize:"cover"
+              backgroundSize: "cover",
             }}
           >
             <a class="" href="#">
-              <p> Environmental and Climate Justice: </p>
-              <p class="small">
-                With the climate going a bit crazy, we're here to help
-                communities deal with it. We push for stuff that doesn't harm
-                the planet and makes sure everyone has what they need to live
-                well.
-              </p>
-              <div class="go-corner" href="#">
-                <div class="go-arrow">→</div>
+              <div class="card-content">
+                <p class="card-title">Environment</p>
+                <p class="card-para">
+                  We promote sustainable practices and climate resilience to
+                  protect the environment and safeguard communities
+                </p>
               </div>
             </a>
           </div>
           <div
-            class="col-md-3 card1"
+            class="col-md-3 cardi"
             style={{
-              backgroundImage: "url(./images/contributors.jpg)",
+              backgroundImage: "url(./images/hero1.jpg)",
               backgroundRepeat: "no-repeat",
               cursor: "pointer",
-              backgroundSize:"cover"
+              backgroundSize: "cover",
             }}
           >
             <a class="" href="#">
-              <p> Social Protection and Advocacy </p>
-              <p class="small">
-                Sometimes, the people who need help the most aren't heard. So,
-                we stand up for them and make sure their voices count in the big
-                decisions that affect their lives
-              </p>
-              <div class="go-corner" href="#">
-                <div class="go-arrow">→</div>
+              <div class="card-content">
+                <p class="card-title">human Rights</p>
+                <p class="card-para">
+                  We advocate for the rights of marginalized groups and work to ensure their voices are heard.
+                </p>
               </div>
             </a>
           </div>
+          
         </div>
       </div>
       <div className="section1-container2">
@@ -108,23 +103,23 @@ const CardComponent = () => {
           <div className="col-12 col-md-8">
             <p>
               The Voice of Reconciliation and Pacification East Africa (VORP-EA)
-              was registered in October 2024 in Kenya as a Non-Governmental
-              Organization, under section 10 of the Non-Governmental
-              Organizations Co-ordination Act, 2013 (PBO Act) with an aim of
-              transforming lives of the underprivileged in the community. VORP -
-              EA is a human rights organization based in Nairobi-Kenya that
-              works with ethnic, religious and linguistic minorities as well as
-              other disadvantaged populations. Millions of people are denied
-              basic rights due to their differences. We work closely with
-              vulnerable communities to protect their rights to their beliefs,
-              cultures, equitable educational and employment opportunities and
-              full participation in public life. We work with disadvantaged
-              populations to protect their rights and foster intercommunal
-              understanding. We are guided by the needs indicated by our
-              community support system, which is interwoven into the fabric of
-              these communities throughout East Africa. Together, we challenge
-              Power systems that exclude and suppress our communities' varied
-              and vulnerable members.
+              is human rights organization dedicated to transforming the lives
+              of marginalized communities and promoting social justice across
+              East Africa. Registered in 2024 as a Non-Governmental
+              Organization, and based in Nairobi, Kenya, we focus on empowering
+              ethnic, religious, and linguistic minorities, as well as other
+              marginalized groups. At VOPR-EA, we deeply understand the needs,
+              aspirations, and priorities of the communities we serve. We
+              believe that everyone, regardless of their background, deserves
+              equal rights and opportunities. By working closely with these
+              communities, we are committed to promoting their rights and
+              ensuring they have access to education, employment, cultural
+              expression, and full participation in public life. The communities
+              we serve are at the heart of our mission. Their voices guide our
+              interventions, which are rooted in the principles of humanity,
+              impartiality, neutrality, and independence. Through advocacy,
+              collaboration, and community-driven initiatives, we exist to
+              create positive, meaningful, and lasting change in East Africa.
             </p>
           </div>
         </div>

@@ -33,6 +33,7 @@ function Nav() {
         borderWidth: "0.1px",
         borderColor: "grey",
         borderBottomColor: "white",
+        overflowX:"hidden"
       }}
     >
       <div className="navbar-button">
@@ -61,7 +62,7 @@ function Nav() {
           </Offcanvas.Header>
           <Offcanvas.Body>
             <div className="links-container">
-              <div className="section-two-content">
+              <div className="row section-two-content">
                 <Card
                   className="card-navi"
                   style={{

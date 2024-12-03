@@ -11,8 +11,8 @@ export default function Hero ()
       imageUrl: "./images/hero1.jpg",
       caption: 'Voice of Reconciliation and Pacification East Africa (VORP-EA) ',
       captionText: 'We believe in the human potential. All human potential. ',
-      buttonText: 'Core Values', // Button text
-      buttonLink: '/learn-more'     
+      // buttonText: 'Core Values', // Button text
+      // buttonLink: '/learn-more'     
 
     },
     {
@@ -20,8 +20,8 @@ export default function Hero ()
       imageUrl: './images/hero2.jpg',
       caption: 'Voice of Reconciliation and Pacification East Africa (VORP-EA) ',
       captionText: 'We believe in the human potential. All human potential. ',
-      buttonText: 'Featured Projects', // Button text
-    buttonLink: '/learn-more' 
+      // buttonText: 'Featured Projects', // Button text
+    // buttonLink: '/learn-more' 
 
     },
     {
@@ -29,8 +29,8 @@ export default function Hero ()
       imageUrl: './images/hero3.jpg',
       caption: 'Voice of Reconciliation and Pacification East Africa (VORP-EA) ',
       captionText: 'We believe in the human potential. All human potential. ',
-      buttonText: 'Youth Programs', // Button text
-    buttonLink: '/learn-more' 
+    //   buttonText: 'Youth Programs', 
+    // buttonLink: '/learn-more' 
     },
   ];
 
@@ -65,7 +65,7 @@ export default function Hero ()
               <br/>
               <h4>{slide.captionText}</h4>
               <br/>
-              <Button>{slide.buttonText}</Button> <br/>
+              {/* <Button>{slide.buttonText}</Button> <br/> */}
             </div>
           </div>
         ))}
