@@ -1,6 +1,4 @@
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+
 
 export default function SectionThree() {
   return (
@@ -8,9 +6,11 @@ export default function SectionThree() {
       className="section-three"
       style={{
         marginLeft: "80px",
-        backgroundImage: "url(images/section3.jpg",
+        backgroundImage: "url(images/section3.jpg)",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
+        backdropFilter: "blur(5px)",
+        color: "black",
       }}
     >
       <div className="section-three-container">
@@ -72,7 +72,7 @@ export default function SectionThree() {
           }}
         >
           <div className="row g-1">
-            <div className="col-md-4 g-0">
+            <div className="col-md-5 g-0">
               <div className="card-bottom-left">
                 <h1>Poverty rate in EAST AFRICA</h1>
                 <p>
@@ -87,37 +87,48 @@ export default function SectionThree() {
                   this by ensuring the services we provide are tailored to the
                   needs of the community. Together, we can create a future full
                   of hope and equal opportunities for everyone
-            
                 </p>
               </div>
             </div>
 
             <div className="col-md-7">
-              <div className="row justify-content-center g-3 ">
+              <div className="row  g-3 ">
+                <h1
+                  style={{
+                    color: "white",
+                  }}
+                >
+                  Our Impact
+                </h1>
                 <div
-                  className=" col-12 col-md-6 col-12  card1"
+                  className="  col-md-6   cardi"
                   style={{
                     backgroundImage: "url(./images/hero1.jpg)",
                     backgroundRepeat: "no-repeat",
                     cursor: "pointer",
+                    backgroundSize: "cover",
                   }}
                 >
-                  <a class="" href="">
-                    <p>Our Core Values</p>
-                    <p class="small">
-                      Trust <br /> Racial and gender equity <br />{" "}
-                      socio-environmental justice <br /> Respect, Dialogue, and
-                      Collaboration <br />
-                      Excellence and Transparency
-                    </p>
-                    <div class="go-corner" href="">
-                      <div class="go-arrow">→</div>
+                  <a
+                    class=""
+                    href=""
+                    style={{
+                      textDecoration: "none",
+                    }}
+                  >
+                    <div class="card-content">
+                      <p class="card-title">Health</p>
+                      <p class="card-para">
+                        We provide accessible healthcare services and promote
+                        health education to prevent disease and improve
+                        well-being.
+                      </p>
                     </div>
                   </a>
                 </div>
 
                 <div
-                  class="col-12 col-md-6 card1"
+                  class="col-12 col-md-6 cardi"
                   style={{
                     backgroundImage: "url(./images/team.jpg)",
                     backgroundRepeat: "no-repeat",
@@ -125,17 +136,26 @@ export default function SectionThree() {
                     backgroundSize: "cover",
                   }}
                 >
-                  <a class="" href="">
-                    <p>The Team</p>
-                    <p class="small"></p>
-                    <div class="go-corner" href="">
-                      <div class="go-arrow">→</div>
+                  <a
+                    class=""
+                    href=""
+                    style={{
+                      textDecoration: "none",
+                    }}
+                  >
+                    <div class="card-content">
+                      <p class="card-title">livelihoods AND Learning</p>
+                      <p class="card-para">
+                        We empower individuals through skills training and
+                        education, creating opportunities for sustainable
+                        livelihoods.
+                      </p>
                     </div>
                   </a>
                 </div>
 
                 <div
-                  class="col-12 col-md-6 card1"
+                  class="col-12 col-md-6 cardi"
                   style={{
                     backgroundImage: "url(./images/contributors.jpg)",
                     backgroundRepeat: "no-repeat",
@@ -143,17 +163,25 @@ export default function SectionThree() {
                     backgroundSize: "cover",
                   }}
                 >
-                  <a class="" href="">
-                    <p>Contributors</p>
-                    <p class="small"></p>
-                    <div class="go-corner" href="">
-                      <div class="go-arrow">→</div>
+                  <a
+                    class=""
+                    href=""
+                    style={{
+                      textDecoration: "none",
+                    }}
+                  >
+                    <div class="card-content">
+                      <p class="card-title">Human Rights</p>
+                      <p class="card-para">
+                        We advocate for the rights of marginalized groups and
+                        work to ensure their voices are heard.
+                      </p>
                     </div>
                   </a>
                 </div>
 
                 <div
-                  class="col-12 col-md-6 card1"
+                  class=" col-md-6 cardi"
                   style={{
                     backgroundImage: "url(./images/newsletter.jpg)",
                     backgroundRepeat: "no-repeat",
@@ -161,11 +189,19 @@ export default function SectionThree() {
                     backgroundSize: "cover",
                   }}
                 >
-                  <a class="" href="">
-                    <p>Newsletter</p>
-                    <p class="small"></p>
-                    <div class="go-corner" href="">
-                      <div class="go-arrow">→</div>
+                  <a
+                    class=""
+                    href=""
+                    style={{
+                      textDecoration: "none",
+                    }}
+                  >
+                    <div class="card-content">
+                      <p class="card-title"> Environment</p>
+                      <p class="card-para">
+                        We promote sustainable practices and climate resilience
+                        to protect the environment and safeguard communities.
+                      </p>
                     </div>
                   </a>
                 </div>

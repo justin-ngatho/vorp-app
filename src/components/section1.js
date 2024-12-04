@@ -1,6 +1,5 @@
 import React from "react";
-import { Card, Container, Row, Col } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 
 const CardComponent = () => {
   return (
@@ -12,6 +11,7 @@ const CardComponent = () => {
     >
       <div className="section1-container">
         <div className="row g-0">
+          {/* <h1>SCOPE OF WORK</h1> */}
           <div
             class="col-md-3 cardi"
             style={{
@@ -19,14 +19,18 @@ const CardComponent = () => {
               backgroundRepeat: "no-repeat",
               cursor: "pointer",
               backgroundSize: "cover",
+               
             }}
           >
-            <a class="" href="#">
+            <a class="" href="#" style={{
+              textDecoration:"none"
+            }}>
               <div class="card-content">
                 <p class="card-title">Health</p>
                 <p class="card-para">
-                  We provide accessible healthcare services and promote health
-                  education to prevent disease and improve well-being.
+                  We are working to improve health and well-being by providing
+                  access to quality healthcare and promoting healthy lifestyles.
+                  We are particular in improving maternal and child health.
                 </p>
               </div>
             </a>
@@ -40,12 +44,16 @@ const CardComponent = () => {
               backgroundSize: "cover",
             }}
           >
-            <a class="" href="#">
+            <a class="" href="#" style={{
+              textDecoration:"none"
+            }}>
               <div class="card-content">
-                <p class="card-title">Livelihoods & Learning</p>
+                <p class="card-title">Livelihoods and Education</p>
                 <p class="card-para">
-                  We empower individuals through skills training and education,
-                  creating opportunities for sustainable livelihoods.
+                  We are empowering individuals with the skills and knowledge
+                  they need to thrive. By investing in education and skills
+                  training, we are equipping individuals with the tools to
+                  secure sustainable livelihoods.
                 </p>
               </div>
             </a>
@@ -59,12 +67,14 @@ const CardComponent = () => {
               backgroundSize: "cover",
             }}
           >
-            <a class="" href="#">
+            <a class="" href="#" style={{
+              textDecoration:"none"
+            }}>
               <div class="card-content">
-                <p class="card-title">Environment</p>
+                <p class="card-title">Environmental and Climate Justice</p>
                 <p class="card-para">
-                  We promote sustainable practices and climate resilience to
-                  protect the environment and safeguard communities
+                  We are committed to protecting our planet. We are working to
+                  promote sustainable practices and climate resilience.
                 </p>
               </div>
             </a>
@@ -78,16 +88,18 @@ const CardComponent = () => {
               backgroundSize: "cover",
             }}
           >
-            <a class="" href="#">
+            <a class="" href="#" style={{
+              textDecoration:"none"
+            }}>
               <div class="card-content">
-                <p class="card-title">human Rights</p>
+                <p class="card-title">Social Protection and Advocacy</p>
                 <p class="card-para">
-                  We advocate for the rights of marginalized groups and work to ensure their voices are heard.
+                  We are standing up for the rights of marginalized groups,
+                  ensuring their voices are heard and their needs are met.
                 </p>
               </div>
             </a>
           </div>
-          
         </div>
       </div>
       <div className="section1-container2">
