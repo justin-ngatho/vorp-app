@@ -5,6 +5,10 @@
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -251,7 +255,6 @@ body {
 
 }
 .section1-container2{
-  display: flex;
   text-align: center;
   background-color: brown;
   color: white;

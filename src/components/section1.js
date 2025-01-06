@@ -22,7 +22,7 @@ const CardComponent = () => {
                
             }}
           >
-            <a class="" href="#" style={{
+            <a class="" href="" style={{
               textDecoration:"none"
             }}>
               <div class="card-content">
@@ -42,16 +42,16 @@ const CardComponent = () => {
               backgroundRepeat: "no-repeat",
               cursor: "pointer",
               backgroundSize: "cover",
+               
             }}
           >
-            <a class="" href="#" style={{
+            <a class="" href="" style={{
               textDecoration:"none"
             }}>
               <div class="card-content">
-                <p class="card-title">Livelihoods and Education</p>
+                <p class="card-title">Education and Livelihood</p>
                 <p class="card-para">
-                  We are empowering individuals with the skills and knowledge
-                  they need to thrive. By investing in education and skills
+               By investing in education and skills
                   training, we are equipping individuals with the tools to
                   secure sustainable livelihoods.
                 </p>
@@ -67,7 +67,7 @@ const CardComponent = () => {
               backgroundSize: "cover",
             }}
           >
-            <a class="" href="#" style={{
+            <a class="" href="" style={{
               textDecoration:"none"
             }}>
               <div class="card-content">
@@ -88,7 +88,7 @@ const CardComponent = () => {
               backgroundSize: "cover",
             }}
           >
-            <a class="" href="#" style={{
+            <a class="" href="" style={{
               textDecoration:"none"
             }}>
               <div class="card-content">
@@ -103,7 +103,7 @@ const CardComponent = () => {
         </div>
       </div>
       <div className="section1-container2">
-        <div className="row g-0 mt-3 mb-3" style={{}}>
+        <div className="row g-2 mt-3 mb-3" >
           <div className="col-12 col-md-4">
             <h1>Who We Are</h1>
             <br />
@@ -112,8 +112,8 @@ const CardComponent = () => {
               <i class="bi bi-chevron-right"></i>
             </p>
           </div>
-          <div className="col-12 col-md-8">
-            <p>
+          <div className="col-12 col-md-8 p-3 ">
+            <p className="text-md-start text-center">
               The Voice of Reconciliation and Pacification East Africa (VORP-EA)
               is human rights organization dedicated to transforming the lives
               of marginalized communities and promoting social justice across
